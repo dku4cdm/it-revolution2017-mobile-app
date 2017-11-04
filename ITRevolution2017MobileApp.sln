@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITRevolution2017MobileApp", "ITRevolution2017MobileApp\ITRevolution2017MobileApp.csproj", "{8280A62A-2717-4B5C-82EE-85EB2A287F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{3476E2B1-6672-4B23-8307-2576DB8CBDF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8280A62A-2717-4B5C-82EE-85EB2A287F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8280A62A-2717-4B5C-82EE-85EB2A287F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8280A62A-2717-4B5C-82EE-85EB2A287F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8280A62A-2717-4B5C-82EE-85EB2A287F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3476E2B1-6672-4B23-8307-2576DB8CBDF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3476E2B1-6672-4B23-8307-2576DB8CBDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3476E2B1-6672-4B23-8307-2576DB8CBDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3476E2B1-6672-4B23-8307-2576DB8CBDF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DB287C0-FC0B-4078-8418-0884CD897D03}
+	EndGlobalSection
+EndGlobal

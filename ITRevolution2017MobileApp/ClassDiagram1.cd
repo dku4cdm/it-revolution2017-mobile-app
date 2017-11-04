@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ITRevolution2017MobileApp.Objects.Drink" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAEAgBAAACSEAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Objects\Drink.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ITRevolution2017MobileApp.Objects.Ingredient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgQAEAAAAAAAQAQAAAAAAAAAAAAAKAAAA=</HashCode>
+      <FileName>Objects\Ingredient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ITRevolution2017MobileApp.Objects.Meter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAACAQBAAAACAQCAAAAAAAAAAAAEAAII=</HashCode>
+      <FileName>Objects\Meter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ITRevolution2017MobileApp.Objects.Person" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAIAAAACAAEQAAAQAACAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Objects\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITRevolution2017MobileApp.Objects.User" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAQAEAAAgAAAAAAAAAAAAAAAAgQEIAAAA=</HashCode>
+      <FileName>Objects\Person.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ITRevolution2017MobileApp.Objects.Photo" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Photo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ITRevolution2017MobileApp.Interfaces.IDrink" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAACSAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDrink.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITRevolution2017MobileApp.Interfaces.IIngredient" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IIngredient.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITRevolution2017MobileApp.Interfaces.IMeter" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Interfaces\IMeter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITRevolution2017MobileApp.Interfaces.IProviderDB" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Interfaces\IProviderDB.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITRevolution2017MobileApp.Interfaces.IUser" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAAEgAAAQAACAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Interfaces\IUser.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ITRevolution2017MobileApp.Enums.Gender" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Enums\Gender.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
