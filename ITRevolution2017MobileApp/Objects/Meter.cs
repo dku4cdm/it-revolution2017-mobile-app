@@ -29,7 +29,7 @@ namespace ITRevolution2017MobileApp.Objects
         private void RecalculatePromileByTime(int minutes)
         {
             double hours = minutes / 60;
-            Promile = Promile - hours * 0.1;
+            Promile = Promile - hours * 0.01;
         }
         public void GetDrinkCharacteristics(IDrink drink)
         {
