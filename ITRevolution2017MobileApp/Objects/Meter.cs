@@ -16,6 +16,7 @@ namespace ITRevolution2017MobileApp.Objects
         private double Weight { get; set; }
         private double StrongModificator { get; set; }
         private double Promile { get; set; }
+        private double TimeToDrive { get; set; }
         private void ConvertStrongToPromileByVidmark()
         {
             const double coeficientEtanol = 0.79;
@@ -24,6 +25,11 @@ namespace ITRevolution2017MobileApp.Objects
             double realWeight = Weight * genderCorrection;
             double realAmount = Amount * (Strong / 100) * coeficientEtanol * bloodResistance;
             Promile = Math.Round(realAmount / realWeight, 4);
+        }
+        private void RecalculatePromileByTime(int minutes)
+        {
+            double hours = minutes / 60;
+            Promile = Promile - hours * 0.1;
         }
         public void GetDrinkCharacteristics(IDrink drink)
         {
@@ -39,9 +45,35 @@ namespace ITRevolution2017MobileApp.Objects
             Gender = user.Gender;
             Weight = user.Weight;
         }
-        public double GetPromile()
+        public void CalculatePromileByTime(int minutes)
         {
             ConvertStrongToPromileByVidmark();
+            RecalculatePromileByTime(minutes);
+        }
+        public void CalculateTimeToDrive()
+        {
+            const double stablePromileToDrive = 0.16;
+            const double promileOutByHour = 0.01; 
+            CheckPromile();
+            TimeToDrive = Math.Round(((Promile - stablePromileToDrive) * 60) / promileOutByHour, 0);
+        }
+        private void CheckPromile()
+        {
+            if (Promile == default(double))
+            {
+                CalculatePromile();
+            }
+        }
+        public double GetTimeToDrive()
+        {
+            return TimeToDrive;
+        }
+        public void CalculatePromile()
+        {
+            ConvertStrongToPromileByVidmark();
+        }
+        public double GetPromile()
+        {
             return Promile;
         }
     }
